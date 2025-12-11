@@ -1,0 +1,6 @@
+CERTIFICATE
+This certificate is presented to
+Peter Parker
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim ut arcu vitae aliquet. Cras auctor, mauris ut egestas volutpat, neque felis semper urna, at venenatis lacus nibh maximus nisi.
+DATE 12th September 2021
+SIGNATURE Dr Stephen Strange
